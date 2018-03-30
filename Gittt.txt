@@ -99,8 +99,32 @@ To add Up dates from branchA to branchB
 First switch to branchA than execute this command
 git merge branchB
 
+and at the end 
+git push origin master
 
+#Resolving conflicts
+In case two branch are working in the same file, so his can generate conflicts about which version git have to merge. here we have to decide the version to work with.
 
+#Looking for who did modifcation in the repository
+git blame file-name
+This can give as the information about the commit using the ID SAH than searching in the git log (history) about that commit using the ID SAH, than we can know the person hwo did the modification
+
+git show ID-SAH
+
+#Ignoring file
+In case we want to create some files (configuration files for example) and we don't want to put them in git.
+first we create a file colling it .gitignore
+touch .gitignore
+than we open this file and we mention the name of the file that we want ignore.
+
+#Avoiding non finale commit in case we have merge from  master but we want to go back after that to our branch.
+
+git stash
+
+After that my work will be saved than i can go back and doing what ever the operation asking by my collegue, ones i finished the work asking and now i'm looking to go back and handle my previous job, i can execute this commad.
+git stash pop
+
+This command bring to the status of my file when i used "git stash"
 
 
 
