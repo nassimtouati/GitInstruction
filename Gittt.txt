@@ -66,34 +66,6 @@ Clone is a local copy of a remote repository.
 git clone
 is a command used to create a copy of a local repository for a remote repository.
 
-#Commit to remote repository
-This is done after cloning from a remote repository. 
-Execute 
-git remote -v
-. You should see the URL to your remote repository, and see that the shortcut name of this remote repository is origin
-
-Execute 
-git push -u origin master
-. The -u flag sets up the local and remote branches as tracking branches. origin is a shortcut name for the remote repository. 
-master is the branch to push. We are pushing the default branch named master.
-
-To get the last Updates from a repository
-Execute the command
-git pull origin master
-
-#Branch
-Viewing all branchs
-git branch
-
-Create new branch
-git branch new-branch-name
-
-To swith to a specific branch
-git checkout branch-name
-
-
-
-
 
 
  
