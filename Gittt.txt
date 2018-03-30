@@ -91,8 +91,16 @@ git branch new-branch-name
 To swith to a specific branch
 git checkout branch-name
 
+To Create new branch and to switch on it directly
+git checkout -b new-branch-name
 
-Test branch Nowwwwwww
+To add Up dates from branchA to branchB
+
+First switch to branchA than execute this command
+git merge branchB
+
+
+
 
 
 
