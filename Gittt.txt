@@ -66,6 +66,9 @@ Clone is a local copy of a remote repository.
 git clone
 is a command used to create a copy of a local repository for a remote repository.
 
+#Commit to remote repository
+
+
 
 
  
